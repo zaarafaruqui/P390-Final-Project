@@ -1,0 +1,237 @@
+---
+title: Investigating Just Noticeable Differences in Visual Line Length Perception
+author:
+  - name: Linus Ma
+    email: l25ma@uwaterloo.ca
+    affiliations: 
+        - ref: waterloo
+  - name: Samridhi Singh
+    email: s592sing@uwaterloo.ca
+    affiliations:
+        - ref: waterloo
+  - name: Tushinka Philantha Pereira
+    email: tppereir@uwaterloo.ca
+    affiliations:
+        - ref: waterloo
+  - name: Zaara Faruqui
+    email: z2faruqu@uwaterloo.ca
+    affiliations:
+        - ref: waterloo
+    attributes:
+        corresponding: true
+affiliations: 
+  - id: waterloo
+    name: University of Waterloo
+    address: 200 University Ave W
+    city: Waterloo
+    state: Ontario
+    postal-code: N2L 3G1
+abstract: |
+  Just Noticeable Differences (JNDs) refer to the smallest change in a stimulus that a person can actually detect. This study looked at JNDs in visual line length perception using 12 undergraduate participants from the University of Waterloo's PSYCH 390 course. Using a within-subjects design and the Method of Constant Stimuli, participants completed 70 trials where they compared a constant blue line to a red line that varied across seven different lengths, and had to judge which line looked longer or if they appeared equal. Psychometric functions were then fitted to each participant's responses to estimate their individual perceptual thresholds. Overall, results followed the expected pattern, where participants were more likely to pick the red line as longer when its length increased.
+  
+  Despite this, there were noticeable differences between participants in how steep and where their psychometric curves fell, pointing to real variability in individual sensitivity to these changes. These findings are generally consistent with Weber's Law and suggest that perceptual sensitivity is not the same across individuals. This has some interesting real-world implications too, particularly around consumer behaviour and the concept of shrinkflation, where companies make small reductions to product quantities that most people simply won't notice.
+
+keywords: 
+  - Just Noticeable Difference (JND)
+  - visual line length perception
+  - Method of Constant Stimuli
+  - Psychometric functions
+  - Weber's Law
+  - perceptual sensitivity
+  - consumer behaviour
+  - shrinkflation
+date: last-modified
+bibliography: manuscript.bib
+format:
+  elsevier-pdf:
+    keep-tex: true
+    journal:
+      name: Journal Name
+      formatting: preprint
+      # model: 3p # Don't set a model with preprint
+      cite-style: authoryear
+---
+# Introduction
+Just Noticeable Differences (JNDs) play a role in our daily lives, although we may be unaware of it. Take the instance of putting on your headphones and turning the volume up, and stopping, and not knowing whether it has really gotten any louder, or of taking a glass of juice and thinking, without any measurement that it looks like it did yesterday. It is these tiny instances of judgment of perception that we make when we determine whether something has actually changed or not that the JND measures. 
+
+The JND, or the minimal perceivable distinction between two degrees of a stimulus that an individual can sense, is a key principle in psychophysics the scientific study of the relationship between physical stimuli and the sensations they generate (@Cherry2025). Formulated, in its original form, by Ernst Weber in the nineteenth century and extended by Gustav Fechner, the JND has provided researchers with a stable framework of quantifying the boundaries of human sensory sensitivity for more than a century.
+
+The applicability of JNDs can be applied in a wide range of scientific studies as well as applied fields much further than these real-life activities. In science, a JND testing is an accurate way of quantifying the perceptual threshold of sensory signals (vision, hearing, and touch), and how the nervous system compares incoming stimuli (@Cherry2025). The most recent of this is the publication in the realm of acoustics, where @BOUCHER2025110900 used psychoacoustic research and investigated just-noticeable-differences in annoyance to helicopter flyover noise. Their experiment had found that helicopters with the same objective noise levels, as measured by conventional certification measures, were still judged by some amount of difference in the annoyance, and had calculated how much the change in noise level would have to be to make 75 percent of the listeners reliably notice a difference in perceived annoyance. This research is an example of a more general rule: that quantifying JNDs in practice can help determine the limitations of current instruments and guide more accurate criteria.
+
+The same is applicable in product development and trade. The makers of products are in the habit of having to make a decision, when it comes to determining whether a modification in a product will be in any way, size, texture, flavor, or weight, will be noticeable to the consumers. JND-informed design enables businesses to determine the extent of change necessary to cause any measurable consumer response, and conversely, to not risk spending resources on changes that are too small to be noticed (@Britt1976). This threshold thinking is particularly influential in marketing and pricing. 
+
+This brings in the concept of shrinkflation. This is where the amount of a product is silently reduced and the price of the product remains unchanged. This assumes implicitly that the JND: as long as the reduction is below the detection threshold of the consumer, the change will go unnoticed and the brand will not receive a backlash (@Arfadia). Incremental price adjustments are tuned in the same key where small progressive adjustments are less probable to bring about any resistance on the part of the consumers compared to a large adjustment (@Britt1976).
+
+Although it is broadly applied, the JND is not constant, it changes among individuals, sensory modalities, and the intensity of baselines stimulus (@Bhatia2022). The Law of Weber states that the JND is proportional to the size of the original stimulus, for example, larger the baseline values, the larger the absolute changes needed in order to generate a measurable difference (@Bhatia2022). The relationship poses questions about the consistency with which individuals can perceive little differences in perception given controlled conditions, and whether perceptual sensitivity remains consistent when making repeated judgments.
+
+One method that has been repeatedly and thoroughly validated to measure JNDs in the laboratory is the Method of Constant Stimuli, whereby a fixed standard stimulus is repeatedly contrasted with a series of comparison stimuli at varying values (above and below) of the standard (@Kingdom2016). Repeated trials of the participants are then analyzed to reveal patterns of their responses in a large number of experiments, and a psychometric function is constructed, which is usually a curve that relates the magnitude of stimulus to the probability of a specific perceptual decision, e.g. longer or same. The intersection with a certain probability threshold (usually 50% or 75) determines the perceptual threshold and the slope of the curve represents the accuracy of the perceptual sensitivity of the observer (@Kingdom2016). This approach is especially well-adapted to laboratory studies that are controlled, since it enables investigators to measure the location and the consistency of perceptual thresholds with high statistical accuracy.
+
+The aim of the current research was to explore JNDs in a controlled laboratory environment using undergraduate students who were recruited at the University of Waterloo. In particular, we tested JNDs when visual line length perception, and this area has a long history of establishing a niche in the psychophysics literature and offers a clear and tractable test of the basic visual discrimination capacity (@Baranski1992). The ability to perceive the difference and categorize visual images based on attributes (size, shape, and space) is one of the main aspects of human perception (@Taylor2022). It is an observation that indicates variations in internal sensory noise, perceptual performance, and neural representation of visual information (@Mollon2017). The causes and scope of this individual variability is thus a significant aim of fundamental perceptual studies.
+
+In this experiment, the participants were presented with two lines on a screen one of constant length and one of different length and asked on each trial to decide which line seemed to be longer or whether the two lines were of equal length. We have used a Method of Constant Stimuli design whereby the comparison line was introduced in 70 trials in total to systematically present it at seven different lengths, enabling us to estimate a psychometric function of each participant and pinpoint a point at which the differences between lengths were reliably detected. This method adheres to traditional methods of discrimination threshold measurement in visual tasks, where the likelihood of an accurate judgment is assumed to be a function of the magnitude of a stimulus to estimate threshold and sensitivity estimates (@Paire2022). Throughout the threshold with which the participants saw a change in length and variance in the sensitivity of individuals, this study adds to a generalized view of visual discrimination and addresses real life scenarios where the correct identification of minor differences is consequential.
+
+# Methods
+## Participants
+This study included 12 participants (9 females, 3 males) recruited from the University of Waterloo’s PSYCH 390 class (Winter 2026 term) during a scheduled data collection session. 4 members of the research team were excluded from participation in order to prevent any potential bias.
+
+## Design
+This experiment used a within-subjects design using a Line Length Comparison Task. The experiment was programmed in Pygame within VS Code.
+
+In this experiment, there were 70 trials participants had to complete in which they compared the lengths of two lines presented on a screen: a red line and a blue line. The independent variable was the relative length of the red (Y) line compared to the blue (X) line, which had 7 levels: 3 shorter than the X line (355, 370, 385), one equal in length to the X line (400), and 3 longer than the X line (415, 430, 445). Each level was presented 10 times across the experiment (7 x 10), resulting in a total of 70 trials.
+
+The blue line remained constant in length across all trials, whereas the red line varied according to the seven predefined levels. The presentation order of the red (Y) line lengths was randomized across trials.
+
+## Procedure
+Participants completed the experiment individually. At the beginning of the session, a researcher briefly explained the purpose of the study and set up the task. Participants were asked to enter a participant ID (either their name or student ID), which was later converted into an anonymous ID.
+
+After entering their ID, participants were shown a screen with standardized instructions and were prompted to press any key to begin the task. They were informed that the instructions would disappear once the task started, and the researcher was available to remind them of the instructions if needed.
+
+During each trial, participants viewed two lines and indicated which line they believed was longer. They responded by pressing the “X” key if they thought the blue line (X) was longer, the “Y” key if they thought the red line (Y) was longer, or the spacebar if they thought the lines were equal in length. Participants completed a total of 70 trials without breaks.
+
+After the final trial, the program automatically closed, and the data were saved to a CSV file for later analysis.
+
+# Results
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#| label: fig-psycho-function
+#| fig-cap: Psychometric function showing the probability of selecting Line Y as longer across Y lengths for each participant.
+
+suppressPackageStartupMessages({
+  library(ggplot2)
+  library(dplyr)
+  library(quickpsy)
+})
+
+data <- read.csv("experiment_data.csv")
+
+data$Y_choice <- ifelse(data$response == "Y", 1, 0)
+
+qp <- quickpsy(
+  data,
+  x = y_length,
+  k = Y_choice,
+  grouping = .(participant_id),
+  lapses = TRUE,
+  bootstrap = "none"
+)
+
+plotcurves(qp) +
+  facet_wrap(~participant_id) +
+  labs(
+    x = "Length of Line Y",
+    y = "Probability of Choosing Y"
+  )
+```
+
+As shown in @fig-psycho-function, we analyzed participants' responses to determine how the perceived length of Line Y influenced the likelihood of choosing Line Y as the “longer line”. For each participant, the proportion of trials in which Line Y was selected was plotted as a function of Line Y's physical length, and psychometric functions were fitted to the data. The probability of choosing Line Y rose among participants as its length grew, resulting in the expected sigmoidal (S-shaped) psychometric function.
+
+Participants rarely evaluated Line Y to be longer at shorter lengths, but more commonly at longer lengths. This pattern implies that individuals were sensitive to systematic variations in stimulus amplitude, which is compatible with visual discrimination principles and JND assessment (@Dyjas2014). Despite the overall tendency, there was significant variation in perceptual sensitivity among individuals. Some persons (e.g., 02, 03, 05, 07, and 09) had relatively steep psychometric functions, indicating more precise discriminating and smaller but notable differences. For these people, the switch from low to high chance of selecting Line Y happened over a relatively small range of stimulus values. In contrast, other people (e.g., people 01 and 11) showed more gradual rises in response probability, indicating higher uncertainty and larger JND. 
+
+The estimated discrimination thresholds, defined as the stimulus values above which individuals switched from mostly assessing Line Y as shorter to predominantly judging it as longer, varied across participants. For many people, this shift occurred near the expected point of equality between the two lines, indicating relatively accurate perceptual judgments. However, for some participants, this transition region appeared to move, indicating variances in response patterns or perceptual biases.
+
+A limited proportion of participants had unusual responses. For example, Participant 10's response probability changed little across stimulus levels, showing a low sensitivity to variations in line length. Furthermore, some participants (e.g., Participant 08) had steeper response functions but fewer observations in the intermediate range, potentially reducing the precision of threshold calculation. Overall, the findings show that participants were able to distinguish changes in line length, as evidenced by rising probabilities of selecting Line Y with increasing stimulus magnitude. However, individual differences in the steepness and position of the psychometric functions show that perceptual sensitivity and JNDs vary between persons.
+
+## Logistic Regression
+To statistically analyze the relationship between the stimulus magnitude and the participants’ perceptual judgments, a logistic regression analysis was conducted, predicting the likelihood of identifying Y as the longer line based on its physical length. We used logistic regression because the outcome is binary (Y chosen vs. not), making ordinary linear regression unsuitable. This method allowed us to predict how changes in Line Y length affected the likelihood (odds) of selecting it while also providing an accurate estimate of the strength and direction of this relationship (@Sperandei2014).
+
+```{r}
+#| label: tbl-logit
+#| tbl-cap: Logistic Regression Predicting Y Choice
+#| echo: false
+#| message: false
+#| warning: false
+
+library(broom)
+library(dplyr)
+library(knitr)
+
+model <- glm(Y_choice ~ y_length, data = data, family = binomial)
+
+table <- broom::tidy(model, conf.int = TRUE) %>%
+  mutate(
+    p.value = ifelse(p.value < 0.001, "< .001", signif(p.value, 3))
+  ) %>%
+  rename(
+    term = term,
+    SE = std.error,
+    z = statistic,
+    CI_low = conf.low,
+    CI_high = conf.high
+  )
+
+knitr::kable(
+  table,
+  digits = 3,
+  align = "l"
+)
+```
+The findings in @tbl-logit revealed a considerable favourable influence of Line Y length on response selection. Participants were more likely to consider Line Y longer than the reference line as its length rose (b = 0.05, SE = 0.004, z = 12.48, p <.001, 95% CI [0.043, 0.058]). The low standard error indicates that the computed effect was accurate and consistent across the collected data. Furthermore, the large z value implies that line length had a significant effect in comparison to data variability. The confidence interval did not include zero and remained totally positive, providing more evidence for a consistent positive relationship between Line Y length and the likelihood of selecting it.
+
+Overall, these findings demonstrate that changes in stimulus magnitude had a systematic effect on participants' assessments, as even small increases in line length increased the likelihood of perceiving Line Y as longer. This trend is consistent with predictions from psychophysical models of perceptual discrimination, indicating that the experimental manipulation is valid.
+
+## Stacked Proportion Bar Graph
+```{r}
+#| label: fig-stacked-response
+#| fig-cap: "Proportion of responses (Blue, Equal, Red) across stimulus levels"
+#| echo: false
+#| message: false
+#| warning: false
+
+library(dplyr)
+library(ggplot2)
+
+plot_data <- data %>%
+  group_by(y_length, response) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  group_by(y_length) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup()
+
+plot_data$response <- factor(plot_data$response,
+                             levels = c("X", "Equal", "Y"))
+
+ggplot(plot_data, aes(x = y_length, y = prop, fill = response)) +
+  geom_col(position = "fill") +
+  labs(
+    x = "Stimulus length (y_length)",
+    y = "Proportion of responses",
+    fill = "Response type"
+  ) +
+  theme_minimal()
+```
+Additionally, we also made a stacked proportion plot to look at how participants’ responses are spread across the different stimulus levels. A stacked proportion plot “extends the standard bar chart from looking at numeric values across one categorical variable to two” (@Atlassian2026), in this case showing the proportion of each response type (X, Y, and Equal) at each stimulus value. This makes it easy to see how people’s decisions change across conditions by showing the full pattern of responses rather than focusing on one outcome. In this graph, each bar is divided into sub-bars representing different response categories, with "each one corresponding to a level of the second categorical variable" (@Atlassian2026), allowing for a comparison of response distributions across stimulus levels.
+
+Based on the results in @fig-stacked-response, Equal responses are higher in the middle stimulus values, especially around 400 and 415. The X responses are more common at the lower stimulus values, with a small increase again around 430. Lastly, Y responses are more common at the higher stimulus values, although there is a small exception around 355 where it is slightly higher than 370, before generally increasing as y_length increases. Overall, these results show that the pattern mostly went as expected, with a clear shift from X to Y across stimulus levels.
+
+# Discussion
+For this study, the objective threshold would have been demonstrated by a low probability of choosing Line Y at shorter lengths, followed by a noticeable increase around the point of equality (400), and a steeper rise beyond that point. However, as indicated by our graph, our participants did not entirely reflect this scenario. Instead, there was some variability in participant responses. Particularly, a few participants (01 and 10) chose Y as the longer line at lengths before and after the objective threshold, indicating the presence of perceptual variability and uncertainty when assessing these JNDs. 
+
+Although these differences may appear minimal, if there already are inconsistencies in detecting such changes within a controlled laboratory setting that clearly indicates possibilities of change, how might these perceptual variabilities manifest in everyday, stressful, or otherwise demanding environments? These perceptual variabilities may become even more pronounced in real-world environments, with the addition of distractors and limited attention. 
+
+Understanding these perceptual differences and limits can have real-world implications, such as with consumer behaviour. As mentioned, shrinkflation is an important topic for all individuals in today’s economic climate. By using and manipulating products around research in JNDs, companies can subtly exploit consumers, reducing product quantities while maintaining or increasing prices, silently making changes just below conscious detection. Such developments are understandable from a producer or manufacturer’s perspective. By downsizing items, costs for production decrease, affecting their overall profits, while decreasing the probable chances for resistance from the consumers (@GAO2025; @Britt1976). However, for the consumer, consequences can range from not realizing that the Pocky box may contain less sticks, to having to spend more budget to purchase key items and bare necessities to survive without even knowing it (@Kilincarslan2026).
+
+# Limitations
+Firstly, this experiment had a small sample size, totalling to 12 individuals, all sampled by convenience from the University of Waterloo’s 2026 winter semester PSYCH 390 students. Although these students come from diverse backgrounds, having a small size like this study can lead to increased error rates and an overestimation of effect sizes (@Gan2025). 
+
+There was also a great deal of confusion surrounding the participants’ user interface. Our instructions for the task was to use the ‘X’ key to signal the blue line being longer and the ‘Y’ key for if they thought the red line was longer. We recognize, as well as received feedback from our participants that these instructions were difficult to remember. Although we had a researcher by the participants as they worked through the task to remind them of these instructions, false inputs may still have been entered due to fears or an unwillingness to ask questions, let alone the same one multiple times. Related to interface issues, both the red and blue lines remained on consistent sides of the screen, with the blue line always positioned toward the left and the red line toward the right. Although their exact positions varied slightly, they did not switch sides, resulting in minimal spatial variability.
+Our analysis also does not include the recorded amount of times people selected both lines as being equal, which could impact the interpretations of our results. 
+
+Finally, another possible confound to our study could have been the length of the experiment. In total, each participant went through 70 trials in total, 10 trials for each of the 7 set lengths that we wanted to test. Intertwining with the confusing instructions, the participants may have experienced fatigue or boredom, leading to misinputs and mistakes.
+
+# Future Recommendations
+As for future recommendations, to combat the problematic user interface issues, it was suggested that the design could use more representative keys, such as the ‘B’ key to signal that the blue line is longer, and the ‘R’ key if they think that the red line is longer. The left and right arrow keys could have also been used since the red, constant line was always touching the right wall. Following this thought, the right arrow key could represent the red, and the left arrow key as the blue. It should be noted that this recommendation may not be useful if the red line is no longer attached to the right wall. Regardless of the keys used, the input instructions could also have stayed on the screen during the trials or even on a piece of paper as a note beside the participants, eliminating the need to ask the researcher while also serving as a constant reminder. 
+
+For issues surrounding the length of our trials, we can incorporate breaks between trials, perhaps every 10 or 15 trials, letting the participant rest and start again at their own choosing, thus reducing the problems of fatigue.
+
+We also implore future studies to explore a variety of ways to conduct JNDs, such as by testing one’s ability to remember lengths or differences between stimuli over time. For instance, a line or arrangement of stimuli could be presented to the participant for a few seconds before disappearing. A few seconds later, perhaps after performing a separate task, a similar-looking line or arrangement reappears, and the participant has to determine if there has been a change or not.
+
+# Conclusion
+Overall, this study set out to measure JNDs in visual line length perception, and for the most part, it did what it was supposed to. Participants generally became more likely to identify the red line as longer as its actual length increased, which lines up with what we would expect based on psychophysical principles and Weber's Law. That said, the variability we saw across individuals was a pretty interesting finding in itself, and serves as a good reminder that perceptual sensitivity is not uniform across people, even in a straightforward task like comparing two lines on a screen.
+
+Of course, the study had its limitations. The small and fairly homogeneous sample, the confusing key inputs, and the lack of breaks across 70 trials all could have affected the results in ways that are hard to fully account for. The fact that there was no analysis of the"equal" responses is another gap worth addressing in future work.
+
+Still, the findings contribute to a broader understanding of how people detect subtle changes in their environment, and the real-world relevance of that should not be understated. Whether it is noticing that a product has gotten slightly smaller or picking up on a minor visual difference, or the ability to detect change, has everyday consequences. As shrinkflation and similar practices become more common, understanding just how much something has to change before people actually notice it becomes more important than ever. Future studies with larger, more diverse samples and a cleaner interface would go a long way in giving more reinforcement to this concept.
+
+# Acknowledgements
+The authors acknowledge the assistance of Aider in reviewing and editing this manuscript. Aider provided suggestions for improving the clarity and structure of the manuscript, as well as encouraging the use of logistic regression and providing code chunks for data analysis.
+
+# References {-}
