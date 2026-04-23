@@ -1,7 +1,7 @@
-This Github Repository includes all of our files for my group's Final Project. This repository includes:
-- Our manuscript (qmd and pdf)
-- Bibliography of sources we used in our manuscript
-- Our pygame we made our experiment/task on
-- A csv file of participants' data from the experiment
+This GitHub repository contains all files for our final group project. It includes:
+- Manuscript (qmd and pdf versions)
+- Bibliography used in the manuscript
+- Pygame script used for the experiment/task
+- Participant data (CSV file)
 - Presentation files
-- Images included in our presentation (PNGs)
+- Images used in the presentation (PNG files)
